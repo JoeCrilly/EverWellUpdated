@@ -987,30 +987,43 @@ div 9{
 }
 
 .rectangle1{
-	height:auto;
+	height: auto;
 	width:80%;
 	background:#4eaab0;
-	position:center;
-	left:auto;
-	top:auto;
+
 	border-radius: 15px;
 	margin: auto;
 	font-family: 'Bitter', 'Trebuchet MS', Cambria;
-	z-index: 5;
 	text-align: justify;
 }
 
-.circle {
-	height:250;
-	width:250;
+
+
+.regional-director {
+	width: 100%;
+	position: relative;
+}
+
+.description {
+	width: 100%;
+	-webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+	padding: 20px;
+}
+
+.circle-img {
+	display: block;
+	height:240;
+	width:240;
 	border-radius:50%;
-	position:absolute;
+	/*position:absolute;*/
 	color: #fff;
 	margin-top: -135px;
-	margin-left: 80px;
-	overflow: visable;
-	z-index: 8;
-	display:absolute;
+	margin-left: 30px;
+	margin-right: 30px;
+	overflow: visible;
+	float: left;
 }
 
 .lenzo {
